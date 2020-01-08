@@ -1,0 +1,40 @@
+//Coded By Fabian Almeida
+//1-6-2020
+public class Arrays {
+
+	public static void main(String[] args) {
+	    //Initializing array
+		int[] array = { 1, 2, 3, 4, 5};    
+	    
+		//Printing original array
+	    System.out.println("Input : ");    
+        for (int i = 0; i < array.length; i++) {     
+            System.out.print(array[i] + " ");
+        }
+            
+        //Rotating the array once
+        for(int i = 0; i < 1; i++){
+        	int j, last;
+            last = array[array.length-1]; 
+     
+       //shifting array by one
+        for(j = array.length-1; j > 0; j--){
+       	 array[j] = array[j-1];    
+        }
+        
+        //adding the last number of the array back into the start 
+        //of the code (5 moves from last position to first position)
+        array[0] = last;    
+
+        }
+       
+        System.out.println();   
+	
+    //Printing array after rotating
+	System.out.println("Output : ");    
+    for(int i = 0; i< array.length; i++){    
+        System.out.print(array[i] + " ");    
+   		}    
+	  }    
+  } 
+}
