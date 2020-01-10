@@ -1,0 +1,34 @@
+//Created by Fabian Almeida
+public class Arrays {
+  public static void main(String[] args){	
+
+	//Printing Original Array
+	System.out.println("Original Array : (2 3 1 45 15)");
+	int arr1[] = {2, 3, 1, 45, 15,};
+	
+	//Setting all variables to 0
+	int i = 0;
+	int e = 0;
+	//Temporary Value
+	int temp = 0;
+	
+	//putting all elements in array in ascending order
+	int length = arr1.length;
+	for (i = 0; i < length; i++){
+		for (e = i + 1; e < length; e++ ){
+			if (arr1[i] > arr1[e]){
+				temp = arr1[i];
+				arr1[i] = arr1[e];
+				arr1[e] = temp;	
+			}
+		}
+	}
+	
+	//Printing out array in ascending order to screen
+	System.out.println("Your array in ascending order is: ");
+	for (i = 0; i < length; i++) {
+		System.out.print(" " + arr1[i]);
+		
+		}
+	}
+}
