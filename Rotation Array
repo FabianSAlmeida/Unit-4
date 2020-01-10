@@ -1,6 +1,5 @@
 //Coded By Fabian Almeida
-//1-6-2020
-public class Arrays {
+public class Array {
 
 	public static void main(String[] args) {
 	    //Initializing array
@@ -37,4 +36,3 @@ public class Arrays {
    		}    
 	  }    
   } 
-}
