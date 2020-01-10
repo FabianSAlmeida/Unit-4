@@ -1,11 +1,12 @@
 //Created By Fabian Almeida
+public class Arrays {
 
 	public static void main(String[] args){
 		
-		//Printing Original Arrray
+		//Printing Original Array
 		System.out.println("Original Array : (2 3 15 15 3 2)");
 		
-        // Setting orginal array to 2 exact arrays
+        // Setting Original array to 2 exact arrays
 		int arr1[] = {2, 3, 15, 15, 3, 2}; 
         int arr2[] = {2, 3, 15, 15, 3, 2}; 
   
@@ -29,3 +30,4 @@
 	        else
 	        	return true;
 	    }
+}
