@@ -1,0 +1,22 @@
+//Created by Fabian Almeida
+    //not Completed 
+import java.util.Scanner;
+
+public class Testing { 
+   
+    public static void main (String[] args) 
+{ 
+		Scanner s = new Scanner(System.in);
+		System.out.println("How many elements will be in your array?");
+		int elements = s.nextInt();
+		
+		
+		Scanner S = new Scanner(System.in);
+		System.out.println("How many rows will your array have?");
+		int rows = S.nextInt();
+		
+		System.out.println("This is your array: " + );
+		
+		int matrix[][]
+	}
+}
